@@ -1,0 +1,19 @@
+div{
+    background-color: black;
+    margin: 0px;
+    display: flex;
+}
+.bola{
+    display: inline-block;
+    width: 41px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 75px;
+    margin-left: 10px;
+    margin-bottom: 11px;
+    background-color: rgba(0, 255, 255, 0.657);
+}
+nav{
+    background-color: rgba(21 149 149 / 66%) ;
+    display: flex;
+}

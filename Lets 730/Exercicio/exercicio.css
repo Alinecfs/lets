@@ -1,0 +1,61 @@
+div{
+    background-color: black;
+    margin: 0px;
+    display: flex;
+}
+.bola{
+    display: inline-block;
+    width: 41px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 75px;
+    margin-left: 10px;
+    margin-bottom: 11px;
+    background-color: rgba(0, 255, 255, 0.657);
+}
+nav{
+    background-color: rgba(21 149 149 / 66%) ;
+    display: flex;
+}
+ul{
+    display: contents;
+    
+}
+a{
+    display: flex;
+    margin: 26px;
+}
+main{
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+}
+section{
+    background-color: violet;
+    margin-left:0;
+    padding: 158px 30px;
+
+}
+aside{
+    background-color: tomato;
+
+}
+h1{
+    background-color: brown;
+    padding: 158px 30px;
+    margin:0px;
+}
+footer{
+    background-color: black;
+    color: white;
+    min-height: 40px;
+    font-weight: 100;
+    text-align: center;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+    section {
+        display: flex;
+        flex-direction: column;

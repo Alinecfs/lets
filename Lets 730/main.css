@@ -1,0 +1,56 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 1.6em;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+div {
+    background: blue;
+}
+
+.btn {
+    display: inline-block;
+    background: rgb(24,110,110);
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    padding: 5px 10px;
+    transition: .25s all ease-in-out;
+}
+
+.btn.vermelho {
+    background: red;
+}
+
+.btn.blink {
+    animation: blink .5s infinite;
+}
+
+main {
+    color: #0000ff;
+    padding: 10px;
+}
+
+@keyframes blink {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

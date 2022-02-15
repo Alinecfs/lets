@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/css/reset.css" rel="stylesheet" type='text/css' />
+    <link href="cadastro.css" rel="stylesheet" type="text/css">/>   
+    <title>Document</title>
+    <body>
+        <header>
+          <h1>Cadastro</h1>
+          <nav>
+              <ul>
+                <li><a href= "index.html">Pagina</a></li>
+                <li><a href= "produtos.html">Produto</a></li> 
+                <li>Cadastro</li>
+              </ul>
+          </nav>
+        </header>
+        <main>
+          <section>
+            <h2>Formulario de Cadastro</h2>
+            <form>
+                <fieldset>
+                    <legend>Informacao de acesso</legend>
+                    <label>
+                        <input name="usuario" placeholder="Usuario" type="text"/>
+                        <input name= "senha"  placeholder="Senha" type="password"/>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Cadastro basico</legend>
+                    <label>
+                        Nome*
+                        <input name="Nome" placeholder="Nome" type="text"/>
+                    </label>
+                    <label>
+                        Sobrenome*
+                        <input name= "Sobrenome"  placeholder="Sobrenome" type="text"/>
+                    </label>
+                    <label>
+                        Data de nascimento*
+                        <input name= "Data de nascimento"  placeholder="dd/mm/aaaa" type="date"/>
+                    </label>
+                    <label>
+                        Telefone p/ contato*
+                        <input name= "Telefone p/ contato"  placeholder="(11) 11111 - 1111" type="tel"/>
+                        <br>
+                    </label>
+                    <label>
+                        Email
+                        <input name= "Email"  placeholder="contato@cliente.com.br" type="email"/>
+                        <br>
+                    </label>
+                    <label>
+                        Endereco*
+                        <input name= "Endereco"  placeholder="Rua do Cliente" type="text"/>
+                    </label>
+                    <label>
+                        Numero
+                        <input name= "Numero"  placeholder="1000" type="number"/>
+                    </label>
+                    <label>
+                        Complemento
+                        <input name= "Complemento"  placeholder="apt 10" type="text"/>
+                        </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Dados da entrega</legend>
+                    <label>
+                        Endereco*
+                        <input name= "Endereco"  placeholder="Rua da Entrega" type="text"/>
+                    </label> 
+                    <label>  
+                        Numero*
+                        <input name= "Numero"  placeholder="50" type="number"/>
+                    </label> 
+                    <label>   
+                        Complemento
+                        <input name= "Complemento"  placeholder="Casa dos fundos" type="text"/>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Opcionais</legend>
+                    <label>
+                        Cor preferida
+                        <input name= "Cor preferida"  placeholder="" type="color"/>
+                    </label>
+                    <label>    
+                        Mes de cadastro
+                        <input name= "Mes cadastro"  placeholder="September 2021" type="date"/>
+                    </label> 
+                    <label>   
+                        Foto
+                        <input name= "Foto" type="search" placeholder="calendario_web.pdf"/>
+                    </label>
+                </fieldset>
+                <button type="reset">Reset</button>
+                <button type="button" onclick="console.table([...new FormData(document.querySelector('form'))])">Enviar</button>
+             </form>
+         </section>
+        </main>
+        <footer>
+          Informações do rodapé
+          Nome da empresa
+          Endereço
+        </footer>
+      </body>
+      
+      </html>
